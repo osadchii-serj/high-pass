@@ -1,0 +1,27 @@
+@mixin listClearStyles {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+@mixin linkClearStyles {
+    text-decoration: none;
+    outline: none;
+}
+
+@mixin btnClearStyles {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+@mixin inputClearStyles {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}

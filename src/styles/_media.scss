@@ -1,0 +1,640 @@
+// =================1024====================================================================================
+@media (max-width: 1024px) {
+    .header__logo-icon {
+        max-width: 166px;
+        max-height: 26.79px;
+    }
+
+    .posters__section {
+        padding-top: 34px;
+    }
+
+    .posters__grid {
+        grid-template-rows: minmax(406px, max-content) minmax(187px, max-content);
+    }
+
+    .projects__section {
+        padding-bottom: 67px;
+    }
+
+    .projects__title {
+        margin-bottom: 12.5px;
+    }
+
+    .projects__grid {
+        grid-template-columns: repeat(8, 1fr);
+        gap: 20px 30px;
+        grid-template-rows: minmax(285px, max-content) minmax(307px, max-content) minmax(307px, max-content);
+        grid-template-areas:
+            "C1 C1 C2 C2 C3 C3 C3 C3"
+            "C4 C4 C4 C4 C4 C6 C6 C6"
+            "C7 C7 C7 C5 C5 C5 C5 C5";
+    }
+
+    .poster__description-wrap {
+        bottom: 30px;
+        left: 30px;
+        max-width: 90%;
+    }
+
+    .poster__author {
+        margin-bottom: 9px;
+    }
+
+    .poster__title {
+        font-size: 34px;
+        line-height: 100%;
+        margin-bottom: 22px;
+    }
+
+    .poster__subtitle {
+        margin-bottom: 25px;
+    }
+
+    .poster__img-1 {
+        height: 82%;
+    }
+
+    .studio__section {
+        padding-bottom: 80px;
+    }
+
+    .studio__title {
+        margin-bottom: 3.5px;
+    }
+
+    .studio__grid {
+        grid-template-rows: minmax(332px, max-content) minmax(156px, max-content);
+    }
+
+    .studio__email-title {
+        margin: 0;
+    }
+
+    .studio__email-field {
+        max-width: 342px;
+    }
+
+    .studio__email-btn {
+        max-width: 126px;
+    }
+
+    .studio__grid-3 {
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content 50px 50px;
+        grid-template-areas:
+            "SET"
+            "SEF"
+            "SEB";
+        gap: 17px 0;
+    }
+
+    .contacts__section {
+        padding-bottom: 68px;
+    }
+
+    .contacts__grid {
+        grid-template-columns: 1.72fr 1fr;
+        grid-template-rows: minmax(459px, 1fr);
+    }
+
+    .contacts__mask {
+        top: 303px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    .contacts_information {
+        position: relative;
+        justify-self: start;
+        padding-left: 30px;
+        max-width: 300px;
+        padding-top: 5px;
+    }
+
+    .contacts__phone-icon {
+        margin: 0;
+    }
+
+    .contacts__link-phone {
+        position: absolute;
+        bottom: 5px;
+        right: -15px;
+    }
+
+    .contacts__email-description {
+        margin-bottom: 12px;
+    }
+
+    .footer__grid {
+        grid-template-columns: 1.1fr 1fr .7fr;
+    }
+
+    .footer__logo-icon {
+        width: 166px;
+        height: 26.79px;
+        padding-top: 5px;
+    }
+
+    .footer__description-wrap {
+        display: flex;
+        justify-content: end;
+    }
+
+}
+
+// =================920======================================================================================
+@media (max-width: 920px) {
+    .header__grid {
+        grid-template-columns: 26% 1fr 7%;
+    }
+}
+
+// =================768======================================================================================
+@media (max-width: 768px) {
+    .container {
+        padding: 0 27px;
+    }
+
+    .header__grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: minmax(80px, 1fr) minmax(45px, max-content);
+        grid-template-areas:
+            "HLW HSW"
+            "HN HN";
+    }
+
+    .header__nav {
+        background-color: $blueGray;
+        margin-left: -27px;
+        margin-right: -27px;
+        padding-left: 27px;
+        padding-right: 27px;
+    }
+
+    .posters__grid {
+        grid-template-rows: minmax(290px, max-content) minmax(134px, max-content);
+    }
+
+    .poster__subtitle {
+        font-size: 22px;
+        margin-bottom: 17px;
+    }
+
+    .poster__img-1 {
+        height: 79%;
+    }
+
+    .studio__section {
+        padding-bottom: 64px;
+    }
+
+    .studio__grid {
+        grid-template-rows: minmax(569px, max-content) minmax(156px, max-content);
+    }
+
+    .studio__grid-2 {
+        gap: 17px 0;
+    }
+
+    .studio__grid-3 {
+        gap: 20px 0;
+    }
+
+    .projects__grid {
+        gap: 25px 30px;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: minmax(300px, max-content) minmax(304px, max-content) minmax(307px, max-content) minmax(300px, max-content);
+        grid-template-areas:
+            "C1 C1 C2 C2 C3 C3"
+            "C4 C4 C4 C4 C4 C4"
+            "C6 C6 C6 C7 C7 C7"
+            "C5 C5 C5 C5 C5 C5";
+    }
+
+    .card__hashtag {
+        top: 8px;
+    }
+
+    .card__description_position-top {
+        top: 109px;
+    }
+
+    .card__date_position-top {
+        top: 31px;
+    }
+
+    .card__title_position-top {
+        top: 53px;
+    }
+
+    .card__description_position-75 {
+        top: 83px;
+    }
+
+    .projects__section {
+        padding-bottom: 70px;
+    }
+
+    .poster__author {
+        margin-bottom: 15px;
+    }
+
+    .poster__title {
+        line-height: 90%;
+        margin-bottom: 23px;
+    }
+
+    .contacts__grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(460px, max-content) minmax(439px, max-content);
+        gap: 30px 0;
+        grid-template-areas:
+            "CMW"
+            "CEW";
+    }
+
+    .contacts_information {
+        max-width: 410px;
+        align-self: self-start;
+        padding-top: 25px;
+    }
+
+    .contacts__link-phone {
+        bottom: -25px;
+        left: 30px;
+    }
+
+    .contacts__email-title {
+        margin-top: -9px;
+    }
+
+    .contacts__email-name,
+    .contacts__email,
+    .contacts__text-field {
+        max-width: 420px;
+    }
+
+    .footer__grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "FLW FSW";
+    }
+
+    .footer__description-wrap {
+        display: none;
+    }
+
+}
+
+// =================520=====================================================================================
+@media (max-width: 520px) {
+    .header__menu {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .studio__email-field {
+        width: 82%;
+    }
+}
+
+// =================320=====================================================================================
+@media (max-width: 320px) {
+    .container {
+        padding: 0 21px;
+    }
+
+    .header__grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: minmax(70px, 1fr) minmax(45px, max-content);
+    }
+
+    .header__logo-icon {
+        max-width: 111.93px;
+        max-height: 17.59px;
+    }
+
+    .header__nav {
+        margin-left: -21px;
+        margin-right: -21px;
+        padding-left: 21px;
+        padding-right: 21px;
+    }
+
+    .header__search-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .posters__section {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .posters__grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: minmax(422px, max-content) minmax(244px, max-content) minmax(105px, max-content);
+        grid-template-areas:
+            "PI1 PI1"
+            "PI2 PI2"
+            "PI3 PI4";
+        gap: 30px;
+    }
+
+    .poster__hashtag {
+        top: 6px;
+        right: 6px;
+        padding: 4px 7px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .poster__description-wrap {
+        max-width: 84%;
+    }
+
+    .poster__author {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 10px;
+    }
+
+    .poster__title {
+        font-size: 24px;
+        line-height: 110%;
+        margin-bottom: 14px;
+    }
+
+    .poster__link {
+        width: 145px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .poster__subtitle {
+        padding-top: 5px;
+        font-size: 18px;
+    }
+
+    .poster__img-1 {
+        height: 76%;
+    }
+
+    .studio__section {
+        padding-top: 32.5px;
+        padding-bottom: 57px;
+    }
+
+    .studio__title {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .studio__grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 25px 0;
+        grid-template-areas:
+            "SDW"
+            "SG2";
+    }
+
+    .studio__grid-2 {
+        gap: 26px 0;
+    }
+
+    .studio__description {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .studio__input-wrap {
+        padding: 0;
+    }
+
+    .studio__email-title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .studio__email-field {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .studio__email-btn {
+        max-width: 115px;
+    }
+
+    .studio__grid-3 {
+        grid-template-rows: max-content 40px 40px;
+        gap: 18px 0;
+    }
+
+    .projects__section {
+        padding-top: 51.5px;
+        padding-bottom: 35.5px;
+    }
+
+    .projects__title {
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 15.5px;
+    }
+
+    .projects__grid {
+        grid-template-columns: 1fr;
+        gap: 25px 0;
+        grid-template-rows:
+            minmax(300px, max-content) minmax(278px, max-content) minmax(278px, max-content) minmax(422px, max-content) minmax(300px, max-content) minmax(300px, max-content) minmax(422px, max-content);
+        grid-template-areas:
+            "C1"
+            "C2"
+            "C3"
+            "C4"
+            "C6"
+            "C7"
+            "C5";
+    }
+
+    .card__hashtag {
+        top: 5px;
+        right: 5px;
+        font-size: 12px;
+        line-height: 14px;
+        padding: 4px 14px;
+    }
+
+    .card__date_position-top {
+        top: 197px;
+    }
+
+    .card__title_position-top {
+        top: 225px;
+    }
+
+    .card__description {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .card__description_position-top {
+        top: 282px;
+    }
+
+    .w_75 {
+        width: 75%;
+    }
+
+    .card__description_position-75 {
+        top: 257px;
+        width: 75%;
+    }
+
+    .card__link {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 10px 19px;
+        bottom: 33px;
+        left: 32px;
+    }
+
+    .contacts__section {
+        padding-bottom: 50px;
+    }
+
+    .container__p_0 {
+        padding: 0;
+    }
+
+    .contacts__title {
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 14.5px;
+    }
+
+    .contacts__grid {
+        grid-template-rows: minmax(473px, max-content) minmax(429px, max-content);
+        gap: 23px 0;
+    }
+
+    .contacts__title {
+        padding-left: 21px;
+    }
+
+    .contacts_information {
+        padding-left: 0;
+        max-width: 100%;
+    }
+
+    .contacts__subtitle {
+        padding-left: 21px;
+        padding-right: 21px;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+
+    .contacts__description {
+        font-size: 14px;
+        line-height: 18px;
+        padding-left: 20px;
+    }
+
+    .contacts__phone-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .contacts__link-phone {
+        font-size: 14px;
+        line-height: 17px;
+        left: 20px;
+        bottom: -30px;
+    }
+
+    .contacts__mask {
+        top: 315px;
+    }
+
+    .contacts__email-wrap {
+        padding: 0 21px;
+    }
+
+    .contacts__email-grid {
+        grid-template-rows: 40px 40px 150px 40px;
+    }
+
+    .contacts__email-title {
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 0;
+    }
+
+    .contacts__email-description {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 17px;
+    }
+
+    .contacts__email-name,
+    .contacts__email,
+    .contacts__text-field {
+        padding: 12px 23px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .contacts__email-btn {
+        max-width: 115px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .footer {
+        padding: 0;
+    }
+
+    .footer__grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(123px, max-content) minmax(62px, max-content);
+        grid-template-areas:
+            "FSW"
+            "FLW";
+    }
+
+    .footer__social-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .vk-icon {
+        padding: 0;
+    }
+
+    .footer__logo-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__logo-icon {
+        width: 111.55px;
+        height: 18px;
+        margin-top: -5px;
+    }
+
+    .footer__year-text {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}

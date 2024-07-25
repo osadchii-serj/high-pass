@@ -1,0 +1,51 @@
+@import "_grid.scss";
+@import "_variables.scss";
+@import "_mixins.scss";
+@import "_common.scss";
+@import "_media.scss";
+
+@font-face {
+    font-family: 'TTFirsNeueRegular';
+    src:
+        url('../fonts/TTFirsNeue-Regular.woff2') format('woff2'),
+        url('../fonts/TTFirsNeue-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'TTFirsNeueBold';
+    src:
+        url('../fonts/TTFirsNeue-Bold.woff2') format('woff2'),
+        url('../fonts/TTFirsNeue-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'TTFirsNeueMedium';
+    src:
+        url('../fonts/TTFirsNeue-Medium.woff2') format('woff2'),
+        url('../fonts/TTFirsNeue-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'RobotoRegular';
+    src:
+        url('../fonts/RobotoRegular.woff2') format('woff2'),
+        url('../fonts/RobotoRegular.woff') format('woff');
+}
+
+
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}

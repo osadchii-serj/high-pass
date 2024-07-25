@@ -1,0 +1,195 @@
+// =================header__grid===============
+.header__logo-wrap {
+    grid-area: HLW;
+}
+
+.header__nav {
+    grid-area: HN;
+}
+
+.header__search-wrap {
+    grid-area: HSW;
+}
+
+.header__grid {
+    display: grid;
+    grid-template-columns: 26% 1fr 17%;
+    grid-template-rows: minmax(80px, 1fr);
+    grid-template-areas:
+        "HLW HN HSW";
+}
+
+// ================posters======================
+.poster__img-1-wrap {
+    grid-area: PI1;
+}
+
+.poster__img-2-wrap {
+    grid-area: PI2;
+}
+
+.poster__img-3-wrap {
+    grid-area: PI3;
+}
+
+.poster__img-4-wrap {
+    grid-area: PI4;
+}
+
+.posters__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: minmax(342px, max-content) minmax(257px, max-content);
+    gap: 30px;
+    grid-template-areas:
+        "PI1 PI1 PI2 PI2"
+        "PI1 PI1 PI3 PI4";
+}
+
+// ===========================studio===============
+
+.studio__description-wrap {
+    grid-area: SDW;
+}
+
+.studio__grid-2 {
+    grid-area: SG2;
+}
+
+.studio__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 255px auto;
+    gap: 0 30px;
+    grid-template-areas:
+        "SDW SG2"
+        "SDW SG2";
+}
+
+.studio__img-wrap {
+    grid-area: SIW;
+}
+
+.studio__grid-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 25px 0;
+    grid-template-areas: "SIW";
+}
+
+.studio__email-title {
+    grid-area: SET;
+}
+
+.studio__email-field {
+    grid-area: SEF;
+}
+
+.studio__email-btn {
+    grid-area: SEB;
+}
+
+.studio__grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 126px;
+    grid-template-rows: max-content 50px;
+    gap: 0 30px;
+    grid-template-areas:
+        "SET SET"
+        "SEF SEB";
+}
+
+
+// projects ========================================
+.card_1 {
+    grid-area: C1;
+}
+
+.card_2 {
+    grid-area: C2;
+}
+
+.card_3 {
+    grid-area: C3;
+}
+
+.card_4 {
+    grid-area: C4;
+}
+
+.card_5 {
+    grid-area: C5;
+}
+
+.card_6 {
+    grid-area: C6;
+}
+
+.card_7 {
+    grid-area: C7;
+}
+
+
+.projects__grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+    grid-template-areas:
+        "C1 C1 C2 C2 C3 C3 C4 C4 C4 C4 C4 C4"
+        "C5 C5 C5 C5 C5 C5 C6 C6 C6 C7 C7 C7";
+}
+
+
+// contacts ========================================
+.contacts__map-wrap {
+    grid-area: CMW;
+}
+
+.contacts__email-wrap {
+    grid-area: CEW;
+}
+
+.contacts__grid {
+    display: grid;
+    grid-template-columns: 2.06fr 1fr;
+    grid-template-rows: minmax(462px, 1fr);
+    gap: 0 30px;
+    grid-template-areas:
+        "CMW CEW";
+}
+
+.contacts__mask {
+    display: grid;
+    grid-template-columns: 1fr 40px;
+    grid-template-rows: auto;
+}
+
+.contacts__email-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 50px 150px 50px;
+    gap: 20px 0;
+}
+
+// footer ============================================
+.footer__logo-wrap {
+    grid-area: FLW;
+}
+
+.footer__description-wrap {
+    grid-area: FDW;
+}
+
+.footer__social-wrap {
+    grid-area: FSW;
+}
+
+.footer__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(66px, 1fr);
+    grid-template-areas:
+        "FLW FDW FSW";
+}
