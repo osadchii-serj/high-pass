@@ -1,5 +1,11 @@
-# high-pass
+# High pass
 
-Skills - HTML, CSS, Sass, JS, Flex, Grid, Gulp, . Работа в Figma, Pixso. Адаптив - 1920, 1024, 768, 320. Кроссбраузерность. Симантическая разметка. Формы.
+> ## ${\color{#eb4034}Skills:}$
+>> - ${\color{#07f74f}HTML, CSS, Sass, JS, Flex, Grid, Gulp}$ 
+>> - ${\color{#07f74f}Figma, Pixso}$ 
+>> - ${\color{#07f74f}Адаптив}$
+>> - ${\color{#07f74f}Кроссбраузерность}$
+>> - ${\color{#07f74f}Семантика}$ 
+>> - ${\color{#07f74f}Формы}$
 
-Посмотреть - http://high-pass-os.webtm.ru/
+> Посмотреть - [high-pass](http://high-pass-os.webtm.ru/) 🔗
